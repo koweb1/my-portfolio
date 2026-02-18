@@ -1,0 +1,36 @@
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  place-items: center;
+  margin-top: 2.5rem;
+  margin-bottom: 3.125rem;
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1rem;
+}
+.main{
+    margin-bottom: 10px;
+}
+@media (max-width: 420px) {
+    #Skills{
+    padding: 30px 20px; 
+    }
+    .skills {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: start; 
+    gap: 1rem; 
+  }
+   .main{
+    margin-bottom: 50px;
+}
+   .para{
+    font-size: 14px;
+   }
+}
+
+@media (max-width: 380px){
+    #Skills{
+        padding: 30px 15px;
+    }
+} 
